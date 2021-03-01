@@ -1,0 +1,24 @@
+{
+  "name": "es-tabheat-confsun",
+  "version": "1.0.0",
+  "description": "ES Tabheat Confsun",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Nam Le",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "^7.2.2"
+  },
+  "dependencies": {
+    "@nivo/core": "^0.63.0",
+    "@nivo/heatmap": "^0.63.0",
+    "date-fns": "^2.16.1",
+    "date-fns-tz": "^1.0.10"
+  }
+}

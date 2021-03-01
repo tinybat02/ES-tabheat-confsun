@@ -1,0 +1,21 @@
+{
+  "type": "panel",
+  "name": "TabHeat Confsun",
+  "id": "id-withsunday-conf-tabheat",
+  "dataFormats": ["table"],
+  "info": {
+    "description": "TabHeat Confsun",
+    "author": {
+      "name": "Nam Le"
+    },
+    "keywords": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
