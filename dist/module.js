@@ -48246,7 +48246,7 @@ var processData = function processData(valueArr, timestampArr, timeZone, open_ho
       if (templateTable[i][hour] == 0) {
         templateTable[i][hour] = null;
       } else {
-        templateTable[i][hour] = Math.round(templateTable[i][hour] / keepTrackWeek[i][hour] * 100) / 100;
+        templateTable[i][hour] = Math.round(templateTable[i][hour] / keepTrackWeek[i][hour]);
       }
     });
   };
