@@ -75,7 +75,7 @@ export class MainPanel extends PureComponent<Props> {
           data={data}
           keys={hourToString(open_hour, close_hour)}
           indexBy="date"
-          margin={{ top: 0, right: 0, bottom: 30, left: 10 }}
+          margin={{ top: 0, right: 0, bottom: 30, left: 40 }}
           forceSquare={true}
           axisTop={null}
           axisRight={null}
